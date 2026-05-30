@@ -1,17 +1,207 @@
+````md
+# PopX Authentication UI
 
-# React + Vite
+A modern mobile-first authentication UI built using React, Tailwind CSS, React Router, and Cloudinary image upload integration.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Mobile-first responsive design
+- Login Page
+- Signup Page
+- Account Settings Page
+- Form validation
+- React state management
+- React Router navigation
+- Cloudinary image upload
+- Floating label inputs
+- Profile image upload
+- Clean modern UI
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- React.js
+- Tailwind CSS
+- React Router DOM
+- Axios
+- React Icons
+- Cloudinary
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── Login.jsx
+│   ├── Signup.jsx
+│   └── Account.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+````
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone <your-repository-url>
+```
+
+Navigate into project:
+
+```bash
+cd project-name
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📦 Required Packages
+
+```bash
+npm install react-router-dom
+npm install axios
+npm install react-icons
+npm install tailwindcss @tailwindcss/vite
+```
+
+---
+
+## ☁️ Cloudinary Setup
+
+Create a Cloudinary account:
+
+https://cloudinary.com
+
+### Create Upload Preset
+
+1. Go to Settings
+2. Open Upload tab
+3. Scroll to Upload Presets
+4. Create new preset
+5. Set Signing Mode → Unsigned
+
+Replace values inside Account page:
+
+```js
+upload_preset: "YOUR_UPLOAD_PRESET"
+```
+
+```js
+https://api.cloudinary.com/v1_1/YOUR_CLOUD_NAME/image/upload
+```
+
+---
+
+## 🔐 Admin Login Credentials
+
+Use these credentials to test authentication:
+
+```bash
+Email: admin@gmail.com
+Password: 123456
+```
+
+---
+
+## 📱 Pages
+
+### Home Page
+
+* Landing page
+* Navigation buttons
+
+### Login Page
+
+* Authentication validation
+* Error handling
+* Floating input labels
+
+### Signup Page
+
+* User registration form
+* Radio button handling
+* Validation system
+
+### Account Page
+
+* User profile UI
+* Cloudinary image upload
+* Responsive mobile layout
+
+---
+
+## 🎨 UI Features
+
+* Mobile-centered container
+* Modern spacing system
+* Responsive layout
+* Hover effects
+* Smooth transitions
+* Tailwind utility styling
+
+---
+
+## 📚 Learning Outcomes
+
+This project demonstrates understanding of:
+
+* React Components
+* useState Hook
+* Event Handling
+* Form Validation
+* React Router
+* API Integration
+* Image Upload Handling
+* Tailwind CSS
+* State Management
+* Responsive Design
+
+---
+
+## 🚀 Future Improvements
+
+* JWT Authentication
+* Backend Integration
+* MongoDB Database
+* Protected Routes
+* Dark Mode
+* Redux Toolkit
+* User Sessions
+* Real Authentication System
+
+---
+
+## 👨‍💻 Author
+
+### Jayesh Sharma
+
+Computer Engineering Student
+Frontend Developer | React Enthusiast
+
+Built as part of a React JS frontend assignment project.
+
+```
+```
